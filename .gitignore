@@ -46,3 +46,6 @@ next-env.d.ts
 /scripts/*.json
 /scripts/update-api-keys.js
 /scripts/check-providers.js
+
+.vercel
+.env*.local

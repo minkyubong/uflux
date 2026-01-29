@@ -11,7 +11,7 @@ export const siteConfig = {
 
   // 회사 정보 (전자상거래법 필수 표기)
   company: {
-    name: "루프셀앤미디어",
+    name: "리치엔에비뉴",
     ceo: "봉민규",
     businessNumber: "420-50-00984",
     salesRegistration: "신고 준비중", // TODO: 발급 후 실제 번호로 교체

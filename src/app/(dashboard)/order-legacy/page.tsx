@@ -88,7 +88,7 @@ import { toast } from 'sonner';
 // ============================================
 const PLATFORM_TABS = [
   { id: 'all', name: '전체', icon: Layers, color: 'from-slate-500 to-slate-600' },
-  { id: 'recommended', name: '인플럭스 추천', icon: Sparkles, color: 'from-amber-400 to-orange-500' },
+  { id: 'recommended', name: '유플렉스 추천', icon: Sparkles, color: 'from-amber-400 to-orange-500' },
   { id: 'favorites', name: '즐겨찾기', icon: Star, color: 'from-yellow-400 to-orange-500' },
   { id: 'Instagram', name: '인스타그램', icon: FaInstagram, color: 'from-[#E1306C] to-[#F77737]' },
   { id: 'YouTube', name: '유튜브', icon: FaYoutube, color: 'from-red-500 to-red-600' },

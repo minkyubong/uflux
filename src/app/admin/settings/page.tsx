@@ -31,7 +31,7 @@ const defaultSettings: SiteSettings = {
   support_phone: "02-1234-5678",
   bank_name: "국민은행",
   account_number: "123-456-789012",
-  account_holder: "루프셀앤미디어",
+  account_holder: "리치엔에비뉴",
   allow_registration: true,
   maintenance_mode: false,
   auto_order_processing: true,

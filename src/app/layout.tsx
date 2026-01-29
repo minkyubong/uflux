@@ -20,13 +20,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "UFLUX(인플럭스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
+    default: "UFLUX(유플렉스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
     template: "%s | UFLUX",
   },
   description:
     "크리에이터를 위한 올인원 SNS 마케팅 플랫폼. 유튜브·인스타·틱톡 24시간 자동 성장 시스템.",
   keywords: [
-    "인플럭스",
+    "유플렉스",
     "SMM 패널",
     "유튜브 구독자 늘리기",
     "인스타 팔로워 구매",
@@ -66,10 +66,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "https://www.UFLUX-lab.com",
-    title: "UFLUX(인플럭스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
+    title: "UFLUX(유플렉스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
     description:
       "크리에이터를 위한 올인원 SNS 마케팅 플랫폼. 유튜브·인스타·틱톡 24시간 자동 성장 시스템.",
-    siteName: "UFLUX - 인플럭스",
+    siteName: "UFLUX - 유플렉스",
     images: [
       {
         url: "/og-image.png",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UFLUX(인플럭스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
+    title: "UFLUX(유플렉스) - 글로벌 1위 SNS 성장/마케팅 자동화 솔루션",
     description:
       "크리에이터를 위한 올인원 SNS 마케팅 플랫폼. 유튜브·인스타·틱톡 24시간 자동 성장 시스템.",
     images: ["/og-image.png"],

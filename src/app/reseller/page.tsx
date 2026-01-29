@@ -386,7 +386,7 @@ export default function ResellerPage() {
       {/* Footer */}
       <footer className="py-8 border-t border-white/10">
         <div className="container mx-auto px-4 text-center text-white/40 text-sm">
-          <p>&copy; {new Date().getFullYear()} 루프셀앤미디어. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 리치엔에비뉴. All rights reserved.</p>
           <div className="flex items-center justify-center gap-4 mt-2">
             <Link href="/terms" className="hover:text-white transition-colors">이용약관</Link>
             <Link href="/privacy" className="hover:text-white transition-colors">개인정보처리방침</Link>
