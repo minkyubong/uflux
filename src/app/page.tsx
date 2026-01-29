@@ -517,7 +517,7 @@ function CTASection() {
 // ============================================
 const companyInfo = {
   name: "루프셀앤미디어",
-  ceo: "박주현",
+  ceo: "봉민규",
   businessNumber: "420-50-00984",
   salesRegistration: "신고 준비중",
   address: "서울특별시 도봉구 도봉로 133길 41, 5층",

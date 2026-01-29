@@ -12,7 +12,7 @@ export const siteConfig = {
   // 회사 정보 (전자상거래법 필수 표기)
   company: {
     name: "루프셀앤미디어",
-    ceo: "박주현",
+    ceo: "봉민규",
     businessNumber: "420-50-00984",
     salesRegistration: "신고 준비중", // TODO: 발급 후 실제 번호로 교체
     address: "서울특별시 도봉구 도봉로 133길 41, 5층",
