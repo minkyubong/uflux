@@ -1,5 +1,5 @@
-# INFLUX robots.txt
-# https://www.influx-lab.com
+# UFLUX robots.txt
+# https://www.uflux-lab.com
 
 User-agent: *
 Allow: /
@@ -42,4 +42,4 @@ Disallow: /dashboard
 Disallow: /api/cron/*
 
 # Sitemap
-Sitemap: https://www.influx-lab.com/sitemap.xml
+Sitemap: https://www.uflux-lab.com/sitemap.xml

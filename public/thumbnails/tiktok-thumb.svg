@@ -8,7 +8,7 @@
       <stop offset="100%" stop-color="#050508"/>
     </linearGradient>
 
-    <!-- INFLUX accent -->
+    <!-- UFLUX accent -->
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00C896"/>
       <stop offset="100%" stop-color="#00E6AC"/>
@@ -118,15 +118,15 @@
   </g>
 
   <!-- Main Title -->
-  <text x="600" y="380" font-family="Arial Black, sans-serif" font-size="56" font-weight="900" fill="white" text-anchor="middle" filter="url(#textShadow)">틱톡 마케팅 가이드</text>
+  <text x="600" y="380" font-family="Arial Black, sans-serif" font-size="56" font-weight="900" fill="white" text-anchor="middle" filter="url(#textShadow)">?�톡 마�???가?�드</text>
 
   <!-- Subtitle -->
   <text x="600" y="435" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">
-    <tspan fill="#999999">바이럴 콘텐츠</tspan>
+    <tspan fill="#999999">바이??콘텐�?/tspan>
     <tspan fill="#444444" dx="8">|</tspan>
-    <tspan fill="#999999" dx="8">트렌드 활용</tspan>
+    <tspan fill="#999999" dx="8">?�렌???�용</tspan>
     <tspan fill="#444444" dx="8">|</tspan>
-    <tspan fill="#999999" dx="8">조회수 극대화</tspan>
+    <tspan fill="#999999" dx="8">조회??극�???/tspan>
   </text>
 
   <!-- Accent divider -->
@@ -135,10 +135,10 @@
     <rect x="-60" y="-1" width="120" height="4" rx="2" fill="url(#accent)" opacity="0.8"/>
   </g>
 
-  <!-- INFLUX Branding -->
+  <!-- UFLUX Branding -->
   <g transform="translate(600, 560)">
     <rect x="-50" y="-15" width="100" height="2" rx="1" fill="url(#accent)" opacity="0.6"/>
-    <text x="0" y="15" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="#00C896" text-anchor="middle" letter-spacing="6">INFLUX</text>
+    <text x="0" y="15" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="#00C896" text-anchor="middle" letter-spacing="6">UFLUX</text>
     <rect x="-50" y="30" width="100" height="2" rx="1" fill="url(#accent)" opacity="0.6"/>
   </g>
 

@@ -13,23 +13,23 @@
   <!-- 배경 -->
   <circle cx="200" cy="200" r="200" fill="url(#darkBg)"/>
   
-  <!-- 장식 원들 -->
+  <!-- ?�식 ?�들 -->
   <circle cx="200" cy="200" r="175" fill="none" stroke="url(#mainG)" stroke-width="2" opacity="0.2"/>
   <circle cx="200" cy="200" r="155" fill="none" stroke="url(#mainG)" stroke-width="1" opacity="0.1"/>
   
-  <!-- 심플한 "I" 로고 -->
+  <!-- ?�플??"I" 로고 -->
   <g>
-    <!-- 상단 바 -->
+    <!-- ?�단 �?-->
     <rect x="120" y="100" width="160" height="28" rx="6" fill="url(#mainG)"/>
     <!-- 중앙 기둥 -->
     <rect x="170" y="100" width="60" height="200" rx="6" fill="url(#mainG)"/>
-    <!-- 하단 바 -->
+    <!-- ?�단 �?-->
     <rect x="120" y="272" width="160" height="28" rx="6" fill="url(#mainG)"/>
   </g>
   
-  <!-- 브랜드명 -->
+  <!-- 브랜?�명 -->
   <text x="200" y="355" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" 
         font-size="28" font-weight="800" letter-spacing="4" fill="url(#mainG)">
-    INFLUX
+    UFLUX
   </text>
 </svg>

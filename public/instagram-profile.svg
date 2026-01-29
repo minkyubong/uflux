@@ -1,18 +1,18 @@
 <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 메인 그라데이션 -->
+    <!-- 메인 그라?�이??-->
     <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0064FF"/>
       <stop offset="100%" style="stop-color:#00C896"/>
     </linearGradient>
     
-    <!-- 배경 그라데이션 -->
+    <!-- 배경 그라?�이??-->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0a0f"/>
       <stop offset="100%" style="stop-color:#12121a"/>
     </linearGradient>
     
-    <!-- 글로우 효과 -->
+    <!-- 글로우 ?�과 -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
       <feMerge>
@@ -22,15 +22,15 @@
     </filter>
   </defs>
   
-  <!-- 배경 원 -->
+  <!-- 배경 ??-->
   <circle cx="200" cy="200" r="200" fill="url(#bgGradient)"/>
   
-  <!-- 외곽 링 -->
+  <!-- ?�곽 �?-->
   <circle cx="200" cy="200" r="185" fill="none" stroke="url(#mainGradient)" stroke-width="3" opacity="0.5"/>
   
-  <!-- 메인 "I" 아이콘 -->
+  <!-- 메인 "I" ?�이�?-->
   <g filter="url(#glow)">
-    <!-- 상승 화살표 + I 조합 -->
+    <!-- ?�승 ?�살??+ I 조합 -->
     <path d="
       M 160 280 
       L 160 160 
@@ -45,15 +45,15 @@
       Z
     " fill="url(#mainGradient)" opacity="0.9"/>
     
-    <!-- 심플한 I 형태 -->
+    <!-- ?�플??I ?�태 -->
     <rect x="155" y="140" width="90" height="140" rx="8" fill="url(#mainGradient)"/>
     
-    <!-- 상단 화살표 -->
+    <!-- ?�단 ?�살??-->
     <polygon points="200,70 240,120 220,120 220,145 180,145 180,120 160,120" fill="url(#mainGradient)"/>
   </g>
   
-  <!-- INFLUX 텍스트 (하단) -->
+  <!-- UFLUX ?�스??(?�단) -->
   <text x="200" y="340" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="36" font-weight="bold" fill="url(#mainGradient)">
-    INFLUX
+    UFLUX
   </text>
 </svg>
