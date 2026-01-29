@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>INFLUX Instagram Profile Preview</title>
+  <style>
+    body {
+      background: #1a1a2e;
+      font-family: system-ui, sans-serif;
+      padding: 40px;
+      color: white;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .preview {
+      text-align: center;
+    }
+    .preview img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px solid #333;
+      margin-bottom: 15px;
+    }
+    .preview h3 {
+      margin: 0 0 5px;
+      color: #00C896;
+    }
+    .preview p {
+      margin: 0;
+      color: #888;
+      font-size: 14px;
+    }
+    h1 {
+      text-align: center;
+      background: linear-gradient(90deg, #0064FF, #00C896);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 40px;
+    }
+    .tip {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0,100,255,0.1);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>INFLUX Instagram Profile Options</h1>
+  
+  <div class="container">
+    <div class="preview">
+      <img src="instagram-profile.svg" alt="V1">
+      <h3>Version 1</h3>
+      <p>다크 + 화살표</p>
+    </div>
+    
+    <div class="preview">
+      <img src="instagram-profile-v2.svg" alt="V2">
+      <h3>Version 2</h3>
+      <p>다크 + 상승 심볼</p>
+    </div>
+    
+    <div class="preview">
+      <img src="instagram-profile-v3.svg" alt="V3">
+      <h3>Version 3</h3>
+      <p>다크 + 클래식 I</p>
+    </div>
+    
+    <div class="preview">
+      <img src="instagram-profile-minimal.svg" alt="Minimal">
+      <h3>Minimal</h3>
+      <p>그라데이션 + 흰색 I</p>
+    </div>
+  </div>
+  
+  <div class="tip">
+    <p><strong>PNG 변환 방법:</strong></p>
+    <p>1. SVG 파일을 브라우저에서 열기</p>
+    <p>2. 스크린샷 또는 개발자도구로 저장</p>
+    <p>3. 또는 온라인 변환기 사용: svgtopng.com</p>
+  </div>
+</body>
+</html>

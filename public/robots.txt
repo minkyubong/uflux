@@ -1,0 +1,45 @@
+# INFLUX robots.txt
+# https://www.influx-lab.com
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /api/cron/*
+Disallow: /api/admin/*
+Disallow: /api/v2
+Disallow: /login
+Disallow: /signup
+
+# Allow search engine bots to crawl public pages
+User-agent: Googlebot
+Allow: /
+Allow: /blog
+Allow: /blog/*
+Allow: /services/*
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /api/cron/*
+
+User-agent: Yeti
+Allow: /
+Allow: /blog
+Allow: /blog/*
+Allow: /services/*
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /api/cron/*
+
+User-agent: Bingbot
+Allow: /
+Allow: /blog
+Allow: /blog/*
+Allow: /services/*
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /api/cron/*
+
+# Sitemap
+Sitemap: https://www.influx-lab.com/sitemap.xml

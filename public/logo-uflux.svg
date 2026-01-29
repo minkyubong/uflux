@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="ufluxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0064FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00C896;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- U Shape -->
+  <path d="M 50 60 L 50 120 Q 50 150 75 150 L 125 150 Q 150 150 150 120 L 150 60" 
+        stroke="url(#ufluxGradient)" 
+        stroke-width="16" 
+        fill="none" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Flux Wave Effect -->
+  <path d="M 70 90 Q 85 80 100 90 T 130 90" 
+        stroke="url(#ufluxGradient)" 
+        stroke-width="8" 
+        fill="none" 
+        stroke-linecap="round"
+        opacity="0.6"/>
+  
+  <!-- Accent Dots -->
+  <circle cx="60" cy="65" r="6" fill="url(#ufluxGradient)"/>
+  <circle cx="140" cy="65" r="6" fill="url(#ufluxGradient)"/>
+</svg>

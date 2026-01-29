@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/monitor-usdt",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/cron/process-orders",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/update-status",
+      "schedule": "*/10 * * * *"
+    }
+  ],
+  "regions": ["icn1"]
+}
